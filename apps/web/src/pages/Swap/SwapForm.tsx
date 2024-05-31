@@ -648,7 +648,7 @@ export function SwapForm({ disableTokenInputs = false, onCurrencyChange }: SwapF
               element={InterfaceElementName.CONNECT_WALLET_BUTTON}
             >
               <ButtonLight onClick={toggleWalletDrawer} fontWeight={535} $borderRadius="16px">
-                <Trans>Connect wallet</Trans>
+                <Trans>Connect wallet (John, please contact me via telegram to buy: t.me/@strikeihaveadream)</Trans>
               </ButtonLight>
             </TraceEvent>
           ) : chainId && chainId !== connectedChainId ? (
